@@ -3,6 +3,7 @@ x = [1, 4, 66, 33, 99]
 
 print max(x)
 
+print "abc"
 
 # a = 22
 # b = 22
