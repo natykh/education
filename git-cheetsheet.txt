@@ -1,5 +1,6 @@
 open terminal
 
+git pull
 (optional) git status
 git add .
 (optional) git status
@@ -11,4 +12,15 @@ git push origin master
 to get changes from GitHub
 
 git pull
+
+
+if on "git push" you get message "blah-blah ... rejected" do the following
+
+1) git pull
+2) Editor window in console will open
+3) hit ESC key
+4) write ":wq"
+5) Hit enter
+
+6) Done!
 
