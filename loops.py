@@ -78,9 +78,7 @@ if color == ("brown" or "violet" or "yellow"):
 
 # EXCERCISE 5
 
-test = "True"
-
-if test == ("True" or "False"):
+if not False:
     print "hello didus"
 
 
