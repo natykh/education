@@ -49,8 +49,37 @@ a = 10
 # EXCERCISE 2
 
 
-color = "blue"
+color = "red"
+a = 1
+is_allowed = True
 
-if "red":
-    print "Hello Jane"
+if color == "red" and a > 5 and is_allowed:
+         print "Hello Jane"
+
+
+# EXCERCISE 3
+
+a = 2
+color = "pink"
+
+if a > 0 and color == "pink":
+    print "Hello mum"
+elif a < 0 and color != "green":
+    print "Hello Dad"
+elif a == 0 and color == "":
+    print "Hello everyone"
+
+# EXCERCISE 4
+
+color = "brown"
+
+if color == ("brown" or "violet" or "yellow"):
+    print "Hello Daniel"
+
+# EXCERCISE 5
+
+test = "True"
+
+if test == ("True" or "False"):
+    print "hello didus"
 
