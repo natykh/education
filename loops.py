@@ -82,4 +82,16 @@ if not False:
     print "hello didus"
 
 
+#Excercise 6
+
+x = 11
+
+if x %2 == 0:
+    color = "Dark"
+else:
+    color = "Light"
+if color == "Dark":
+    print "Its nighttime"
+else:
+    print "Its daytime"
 
