@@ -98,22 +98,22 @@ a = 10
 #EXCERCISES - ARRAYS/LISTS
 
 # Excercise 1
-#
-# list = [2, 44, 15, 84, 3, -1, 0, 10, 15]
-# for x in list:
-#     if x % 4 == 0:
-#         print "Number is divisible by 4"
-#
+
+list = [2, 44, 15, 84, 3, -1, 0, 10, 15]
+for x in list:
+    if x % 4 == 0:
+        print "Number is divisible by 4"
+
 
 # Excercise 2
-#
-# list = [2, 44, 15, 84, 3, -1, 0, 10, 15]
-# for x in list:
-#     if x != 0:
-#         if 30 % x == 0:
-#             print "Divisor of 30"
-#     else:
-#          print "Action not allowed"
+
+list = [2, 44, 15, 84, 3, -1, 0, 10, 15]
+for x in list:
+    if x != 0:
+        if 30 % x == 0:
+            print "Divisor of 30"
+    else:
+        print "Action not allowed"
 
 #Excercise 3
 
@@ -127,21 +127,32 @@ for x in list:
 print "________________________"
 
 # #Excercise 4
-#
+# incorrect
 # list = [2, 44, 15, 84, 3, -1, 0, 10, 15]
 # for x in list:
 #     while x >0:
 #         print x
 
+# correct
+# while True:
+#     print "lalala"
+
 print "________________________"
 
 #Excersice 5
 
+# incorrect
+# list = [2, 44, 15, 84, 3, -1, 0, 10, 15]
+# N = 4
+# for x in list:
+#     print [x] * 4
+
+# correct
 list = [2, 44, 15, 84, 3, -1, 0, 10, 15]
 N = 4
 for x in list:
-    print [x] * 4
-
+    for n in range(0, N):
+        print x
 
 print "________________________"
 
